@@ -11,6 +11,19 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "123\n123\n123\nssh-rsa \nAAAAB3NzaC1yc2EAAAADAQABAAABAQDUC342xW2gp2b73eoO/9DLpDycilAUkBh7vHP6WYArpS/Ma6Ty38eSIm/v24vUXDxKACqXb52GMAjnK0NPx+KUwNj4LJ5pbavp+6Ahe7uOWXLn0yWM+yvNv4SeuzqYFa5JMZ+LHL1aTGJLuTTSSwDUL+EM65qE//5+XfSU9f9EPqAKaxC6ftNOhUpcWiLmRSRakbV9z+gDg3fRCfKlQUa5cz8ktSNzUwg/57BsyZ2ed4fEM9hnAJr5U44Yv5S/FmZ3IJtOLqlu23xeEuDiDfAEzn2cOM2vOA6p8kynd8fDl9C35fucvJAiyr0QFrCny7kPTStuEYdtTifFDzprBruJ shiyaleinl@gmail.com",
+			"file": "/home/shine/mygit/123.txt",
+			"file_size": 11,
+			"file_write_time": 131662578663584786,
+			"settings":
+			{
+				"buffer_size": 414,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "123"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -77,6 +90,7 @@
 	],
 	"file_history":
 	[
+		"/home/shine/mygit/test.txt",
 		"/home/shine/Documents/Personl/baidu",
 		"/home/shine/mygit/readme.txt",
 		"/home/shine/Downloads/dropbox.py",
@@ -133,8 +147,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/shine/mygit/123.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								414,
+								414
+							]
+						],
+						"settings":
+						{
+							"auto_name": "123",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
