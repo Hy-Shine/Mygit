@@ -1,16 +1,16 @@
-## 数据类型
+## Data Type
 
 ### 1	六种标准数据类型
 
 ```python
-数字 number
+数字 number(int,float)
 字符串 str
 列表 list #[],可变
 元组 tuple #(),初始化后不可修改
 字典 dict #{},
 集合 set
-不可变数据（3 个）：Number（数字）、String（字符串）、tuple（元组）；
-可变数据（3 个）：List（列表）、Dictionary（字典）、Set（集合）。 
+不可变数据（3个）：Number（数字）、String（字符串）、tuple（元组）；
+可变数据（3个）：List（列表）、Dictionary（字典）、Set（集合）。 
 ```
 
 - 数字number
@@ -46,7 +46,7 @@
 
   ```python
   a = [123,'abc',True,'789']
-  a.append('ABC')#追加元素
+  a.append('ABC')#尾部追加元素
   a.insert(i,x)#指定位置添加元素
   a.pop()#删除最后一个元素
   a.pop(i)#删除指定位置元素,i是索引位置
