@@ -1,4 +1,4 @@
-## Data Type
+## Data Types
 
 ### 1	六种标准数据类型
 
@@ -16,11 +16,12 @@
 ###  2.1	数字number
 
   ```python
-  支持的数字类型:int,float,bool,complex
-  bool(True,False)
-  #数值运算
-  加(+)减(-)乘(*)乘方(**)
-  除(/)浮点数(//)取商(%)取余
+支持的数字类型:int,float,bool,complex
+bool(True,False)
+complex:1+2j
+#数值运算
+加(+)减(-)乘(*)乘方(**)
+除(/)浮点数(//)取商(%)取余
   ```
 
   ```python
@@ -75,12 +76,14 @@
 ### 2.5	字典dict
 
   ```python
-  格式:dict1 = {key1:value1...}
-  键必须是唯一的，但值则不必,值可以取任何数据类型，但键必须是不可变的，用数字，字符串或元组充当。
-  dict = {'Alice':'2341','Beth':'9102','Cecil':'3258'}
-  del dict['Alice'] # 删除键'Alice'
-  dict.clear()     # 清空字典
-  del dict         # 删除字典
+格式:dict1 = {key1:value1...}
+键必须是唯一的，但值则不必,值可以取任何数据类型，但键必须是不可变的，用数字，字符串或元组充当。
+dict = {'Alice':'2341','Beth':'9102','Cecil':'3258'}
+del dict['Alice'] # 删除键'Alice'
+dict.clear()     # 清空字典
+del dict         # 删除字典
+dict.item()
+dict.keys()
   ```
 
 ### 2.6	集合set
